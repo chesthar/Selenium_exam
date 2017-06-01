@@ -7,6 +7,7 @@ import org.junit.Test;
 import com.pragmatic.qa8.Selenium_exam.pages.AdminDefaultPage;
 import com.pragmatic.qa8.Selenium_exam.pages.AdminLoginPage;
 import com.pragmatic.qa8.Selenium_exam.pages.CatalogProductsPage;
+import com.pragmatic.qa8.Selenium_exam.utils.Browser;
 
 public class CatalogProductsTest {
 	
@@ -24,7 +25,7 @@ public class CatalogProductsTest {
 	
 	@After
 	public void tearDown() {
-		//Browser.shutDown();
+		Browser.shutDown();
 	}
 
 	@Test
