@@ -63,7 +63,7 @@ public class CatalogProductsPage {
 	}
 
 	public static void addProduct(String productName, String model) {
-		insertBtn.click();;
+		insertBtn.click();
 		Assert.assertEquals("You're not on General tab", "General", genralTabSelected.getText());
 		productNameTbGeneralTab.sendKeys(productName);
 		dataTab.click();
